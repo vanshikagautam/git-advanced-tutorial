@@ -1,8 +1,8 @@
 mydata = read.csv("example_data.csv")
-plot(mydata$xdata,mydata$ydata,col='red')
+plot(mydata$xdata,mydata$ydata,col='green')
 
 # some guesses for the parameters.
-p1 = 1
+p1 = 2
 p2 = 0.2
 
 # do the fit
