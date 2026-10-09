@@ -1,5 +1,5 @@
 mydata = read.csv("example_data.csv")
-plot(mydata$xdata,mydata$ydata,col='blue')
+plot(mydata$xdata,mydata$ydata,col='pink')
 
 # some guesses for the parameters.
 p1 = 2
