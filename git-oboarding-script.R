@@ -16,3 +16,4 @@ lines(new$xdata,predict(fit,newdata=new))
 #bug fix
 
 #feature2 change1
+#feature3
