@@ -12,10 +12,7 @@ fit = nls(ydata ~ p1*cos(p2*xdata) + p2*sin(p1*xdata), data = mydata, start = li
 new = data.frame(xdata = seq(min(mydata$xdata),max(mydata$xdata),len=200))
 lines(new$xdata,predict(fit,newdata=new))
 
-<<<<<<< HEAD
-#bug fix
-=======
-#new code
-#new code 2
 
->>>>>>> feature1
+#bug fix
+
+#feature2 change1
